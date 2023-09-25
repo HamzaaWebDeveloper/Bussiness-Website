@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@700&display=swap');
+
+/* fonts */
+
+body{
+    box-sizing: border-box;
+
+}
+
+/* Navbar */
+.navbar-color{
+    background-color: #37517e;
+}
+
+/* body */
+.body-banner-color{
+    background-color: #37517e;
+}
+
+.banner-text{
+    color: antiquewhite;
+    font-size: 60px;
+    font-family: 'Geologica', sans-serif;
+}
+
+.color-multiple{
+    background-color: #eeeeee;
+}
+
+.img1{
+    width: 80px;
+ filter: grayscale(100%);
+    
+}
+
+.img1:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+}
+/* end */
+
+/* about */
+.about-title{
+    color: #37517e;
+}
+
+.about-first-col{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.icon-color{
+    color: #00a6eb !important;
+}
+
+
+.about-sec-col{
+    font-size: 16px;
+    font-style: italic;
+}
+
+.about-banner-image{
+    background-color: #eeeeee;
+}
+
+.about-banner-text{
+    color: #37517e;
+}
+
+.question-color:hover{
+    color: #00a6eb;
+}
+
+.about-banner-color2{
+    color: #37517e;
+    font-size: 35px;
+}
+
+.about-banner-text2{
+    font-style: italic;
+
+}
+
+
+.progress-bar{
+    background-color: #37517e;
+    
+}
+
+.service-bg{
+    background-color: #eeeeee;
+}
+
+
+.service-color{
+    color: #37517e;
+}
+
+.globe-title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #37517e;
+}
+
+.globe-title:hover{
+    color: #00a6eb;
+   transition: 10ms;
+}
+
+.card{
+    border: 0px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    border: 0px;
+}
+
+.color-action{
+    background-color: 
+        #263654;
+}
+
+.call-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.call-btn{
+    margin-top: 150px;
+}
+
+.contact-text{
+    color: #37517e;
+}
+
+.contact-button{
+    border-radius: 30px;
+    background-color: #00a6eb;
+    border: #00a6eb;
+}
+
+.contact-button:hover{
+    background-color: #263654;
+    transition: 1s;
+}
+
+.lead-btn{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: white 1px solid;
+    width: 160px;
+    border-radius: 10px;
+    
+}
+
+.lead-btn:hover{
+    background-color: #00a6eb;
+    border: #00a6eb 1px solid;
+    color: black;
+    transition: 1s;
+}
+
+.learn-btn{
+    background-color: transparent;
+    color: #00a6eb;
+    width: 120px;
+    border: #00a6eb 1px solid;
+}
+
+.learn-btn:hover{
+    background-color: #00a6eb;
+    color: white;
+    transition: 1s;
+    border: #00a6eb 1px solid;
+}
+
+.get-started-btn{
+
+border-radius: 20px;
+width: 150px;
+background-color: lightseagreen;
+color: white;
+border: lightseagreen 1px solid;
+}
+
+
+.get-started-btn:hover{
+    background-color: #00a6eb;
+    border: #00a6eb 1px solid;
+    transition: 1s;
+}
+
+.nav-btn{
+    border-radius: 20px;
+    border: #00a6eb 2px solid;
+    background-color: transparent;
+    color: white;
+}
+
+.nav-btn:hover{
+    background-color: #00a6eb;
+    color: white;
+    transition: 1s;
+    border: #00a6eb 2px solid;
+}
+
+
+
+.nav-link{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.nav-link:hover{
+    color: #00a6eb;
+text-decoration: underline;
+text-decoration-thickness: 3px;
+transition: 1s;
+
+}
+
+/* banner image animation */
+
+
+.animated-image {
+    position: absolute;
+    
+    height: 400px;
+    width: 500px;
+    transform: translate(-10%, -10%);
+    animation: upDownAnimation 2s infinite alternate;
+  }
+
+
+  @keyframes upDownAnimation {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-30px);
+    }
+  }
+
+
+  /* css responsive */
+
+
+
+
+  
+  @media only screen and (max-width: 375px) {
+     .card-res {
+  width: 22rem;
+    }
+  }
+
+
+  @media only screen and (max-width: 425px) {
+    .card-res {
+ width: 24rem;
+   }
+ }
+  
